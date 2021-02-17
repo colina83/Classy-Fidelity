@@ -10,11 +10,11 @@ Have you ever try to decipher your stock performance in fidelity's landing page?
 The 3 points above summarizes the tools that are essential for a Data Scientist/Analyst/AI practitioner, and this first Class summarizes the foundations of future endevours.
 
 <h1> How do I get data for to use the class? </h1>
-- You need a Fidelity Account, and additionaly you need to purchase a couple of stocks 
-- If you have a Fidelity Account, please Log-in
-- On the main menu, click #Account Positions#
-- Navigate your mouse to the right hand corner of the table containing all your positions, and click the incon that has an arrow pointing out.
-- The CSV extract is the data you need in order to run this Class.
+<li> - You need a Fidelity Account, and additionaly you need to purchase a couple of stocks </li>
+<li> - If you have a Fidelity Account, please Log-in </li>
+<li> - On the main menu, click <b> Account Positions </b> </li>
+<li> - Navigate your mouse to the right hand corner of the table containing all your positions, and click the incon that has an arrow pointing out.</li>
+<li> - The CSV extract is the data you need in order to run this Class.</li>
 
 #Instructions
 
