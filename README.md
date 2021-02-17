@@ -9,7 +9,7 @@ Have you ever try to decipher your stock performance in fidelity's landing page?
 
 The 3 points above summarizes the tools that are essential for a Data Scientist/Analyst/AI practitioner, and this first Class summarizes the foundations of future endevours.
 
-#How do I get data for to use the class?
+<h1> How do I get data for to use the class? </h1>
 - You need a Fidelity Account, and additionaly you need to purchase a couple of stocks 
 - If you have a Fidelity Account, please Log-in
 - On the main menu, click #Account Positions#
