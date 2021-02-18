@@ -1,0 +1,28 @@
+﻿Account Name/Number,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis,Cost Basis Per Share,Type
+X91622045,ATVI,ACTIVISION BLIZZARD INC COM USD0.000001,8,$103.81,+$0.57,$830.48,+$4.56,+0.55%,+$273.85,+49.19%,2.67%,$556.63,$69.58,Margin,
+X91622045,ARLO,ARLO TECHNOLOGIES INC COM,10,$7.86,-$0.31,$78.60,-$3.10,-3.80%,-$125.75,-61.54%,0.25%,$204.35,$20.44,Margin,
+X91622045,AZN,ASTRAZENECA ADR REP 0.5 ORD,100,$51.69,+$1.60,"$5,169.00",+$160.00,+3.19%,-$746.00,-12.62%,16.60%,"$5,915.00",$59.15,Margin,
+X91622045,BRKB,BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B,3,$242.46,+$2.70,$727.38,+$8.10,+1.12%,+$162.06,+28.66%,2.34%,$565.32,$188.44,Margin,
+X91622045,BYND,BEYOND MEAT INC COM,1,$175.45,-$0.21,$175.45,-$0.21,-0.12%,+$80.58,+84.93%,0.56%,$94.87,$94.87,Margin,
+X91622045,CGC,CANOPY GROWTH CORPORATION COM NPV ISIN #CA1380351009 SEDOL #BYTN3W0,25,$40.31,-$0.34,"$1,007.75",-$8.50,-0.84%,+$0.55,+0.05%,3.24%,"$1,007.20",$40.29,Margin,
+X91622045,DAL,DELTA AIR LINES INC,20,$43.29,+$0.57,$865.80,+$11.40,+1.33%,+$406.40,+88.46%,2.78%,$459.40,$22.97,Margin,
+X91622045,DIS,DISNEY WALT CO COM,1,$187.67,-$3.24,$187.67,-$3.24,-1.70%,+$101.03,+116.60%,0.60%,$86.64,$86.64,Margin,
+X91622045,XOM,EXXON MOBIL CORP,20,$50.52,+$0.68,"$1,010.40",+$13.60,+1.36%,-$561.15,-35.71%,3.25%,"$1,571.55",$78.58,Margin,
+X91622045,FTEKX,FIDELITY DISRUPTIVE TECHNOLOGY FUND,5.485,$20.28,+$0.11,$111.23,+$0.60,+0.54%,+$50.87,+84.28%,0.36%,$60.36,$11.00,Margin,
+X91622045,F,FORD MTR CO DEL COM,89,$11.45,$0.00,"$1,019.05",$0.00,0.00%,+$497.06,+95.22%,3.27%,$521.99,$5.87,Margin,
+X91622045,GILD,GILEAD SCIENCES INC COM USD0.001,6,$66.89,-$0.03,$401.34,-$0.18,-0.05%,-$67.92,-14.48%,1.29%,$469.26,$78.21,Margin,
+X91622045,IRBT,IROBOT CORP,4,$133.40,+$4.49,$533.60,+$17.96,+3.48%,+$140.11,+35.60%,1.71%,$393.49,$98.37,Margin,
+X91622045,-SRAC210219C35,SRAC FEB 19 2021 $35 CALL,-1,$0.06,$0.00,-$6.00,$0.00,0.00%,+$108.30,+94.75%,-0.02%,$114.30,$1.14,Margin,
+X91622045,PTON,PELOTON INTERACTIVE INC CL A COM,20,$154.67,+$8.19,"$3,093.40",+$163.80,+5.59%,"+$2,004.81",+184.16%,9.94%,"$1,088.59",$54.43,Margin,
+X91622045,SLB,SCHLUMBERGER LIMITED COM USD0.01,15,$26.645,+$0.275,$399.67,+$4.12,+1.04%,-$542.18,-57.57%,1.28%,$941.85,$62.79,Margin,
+X91622045,SRAC,STABLE RD ACQUISITION CORP COM CL A,100,$24.97,-$0.73,"$2,497.00",-$73.00,-2.85%,"+$1,460.00",+140.79%,8.02%,"$1,037.00",$10.37,Margin,
+X91622045,STOR,STORE CAP CORP COM,22,$32.93,-$0.19,$724.46,-$4.18,-0.58%,+$292.78,+67.82%,2.33%,$431.68,$19.62,Margin,
+X91622045,TSLA,TESLA INC COM,20,$816.12,+$4.46,"$16,322.40",+$89.20,+0.54%,"+$15,026.25","+1,159.29%",52.43%,"$1,296.15",$64.81,Margin,
+X91622045,UAL,UNITED AIRLS HLDGS INC COM,21,$43.935,+$0.495,$922.63,+$10.39,+1.13%,+$388.79,+72.82%,2.96%,$533.84,$25.42,Margin,
+X91622045,Pending Activity,,,,,"-$4,940.71",,,,,,,,,
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded 02/15/2021 6:54 PM ET"

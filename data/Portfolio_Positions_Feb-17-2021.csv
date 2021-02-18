@@ -1,0 +1,29 @@
+﻿Account Name/Number,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis,Cost Basis Per Share,Type
+X91622045,ATVI,ACTIVISION BLIZZARD INC COM USD0.000001,8,$102.56,-$0.40,$820.48,-$3.20,-0.39%,+$263.85,+47.40%,2.73%,$556.63,$69.58,Margin,
+X91622045,ARLO,ARLO TECHNOLOGIES INC COM,10,$7.545,-$0.105,$75.45,-$1.05,-1.38%,-$128.90,-63.08%,0.25%,$204.35,$20.44,Margin,
+X91622045,AZN,ASTRAZENECA ADR REP 0.5 ORD,100,$51.43,+$0.54,"$5,143.00",+$54.00,+1.06%,-$772.00,-13.06%,17.10%,"$5,915.00",$59.15,Margin,
+X91622045,BRKB,BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B,3,$245.1091,-$0.1709,$735.32,-$0.52,-0.07%,+$170.00,+30.07%,2.44%,$565.32,$188.44,Margin,
+X91622045,BYND,BEYOND MEAT INC COM,1,$167.50,-$5.54,$167.50,-$5.54,-3.21%,+$72.63,+76.55%,0.56%,$94.87,$94.87,Margin,
+X91622045,CGC,CANOPY GROWTH CORPORATION COM NPV ISIN #CA1380351009 SEDOL #BYTN3W0,25,$40.5232,-$1.6068,"$1,013.08",-$40.17,-3.82%,+$5.88,+0.58%,3.37%,"$1,007.20",$40.29,Margin,
+X91622045,DAL,DELTA AIR LINES INC,20,$44.325,-$0.325,$886.50,-$6.50,-0.73%,+$427.10,+92.96%,2.95%,$459.40,$22.97,Margin,
+X91622045,DIS,DISNEY WALT CO COM,1,$186.96,+$0.61,$186.96,+$0.61,+0.32%,+$100.32,+115.78%,0.62%,$86.64,$86.64,Margin,
+X91622045,XOM,EXXON MOBIL CORP,20,$52.48,+$0.44,"$1,049.60",+$8.80,+0.84%,-$521.95,-33.22%,3.49%,"$1,571.55",$78.58,Margin,
+X91622045,FTEKX,FIDELITY DISRUPTIVE TECHNOLOGY FUND,5.485,$20.26,-$0.02,$111.12,-$0.11,-0.10%,+$50.76,+84.10%,0.37%,$60.36,$11.00,Margin,
+X91622045,F,FORD MTR CO DEL COM,89,$11.475,-$0.065,"$1,021.27",-$5.79,-0.57%,+$499.28,+95.65%,3.40%,$521.99,$5.87,Margin,
+X91622045,GILD,GILEAD SCIENCES INC COM USD0.001,6,$64.51,-$0.29,$387.06,-$1.74,-0.45%,-$82.20,-17.52%,1.29%,$469.26,$78.21,Margin,
+X91622045,IRBT,IROBOT CORP,4,$120.4969,-$1.9831,$481.98,-$7.94,-1.62%,+$88.49,+22.49%,1.60%,$393.49,$98.37,Margin,
+X91622045,-SRAC210219C35,SRAC FEB 19 2021 $35 CALL,-1,$0.05,$0.00,-$5.00,$0.00,0.00%,+$109.30,+95.62%,-0.02%,$114.30,$1.14,Margin,
+X91622045,-AZN210219C59,AZN FEB 19 2021 $59 CALL,-1,$0.01,-$0.18,-$1.00,-$0.10,-11.12%,-$0.10,-11.12%,0.00%,$0.90,$0.01,Margin,
+X91622045,PTON,PELOTON INTERACTIVE INC CL A COM,20,$136.5499,-$9.3301,"$2,730.99",-$186.61,-6.40%,"+$1,642.40",+150.87%,9.08%,"$1,088.59",$54.43,Margin,
+X91622045,SLB,SCHLUMBERGER LIMITED COM USD0.01,15,$26.90,+$0.09,$403.50,+$1.35,+0.33%,-$538.35,-57.16%,1.34%,$941.85,$62.79,Margin,
+X91622045,SRAC,STABLE RD ACQUISITION CORP COM CL A,100,$24.224,-$0.616,"$2,422.40",-$61.60,-2.48%,"+$1,385.40",+133.59%,8.05%,"$1,037.00",$10.37,Margin,
+X91622045,STOR,STORE CAP CORP COM,22,$32.92,-$0.35,$724.24,-$7.70,-1.06%,+$292.56,+67.77%,2.41%,$431.68,$19.62,Margin,
+X91622045,TSLA,TESLA INC COM,20,$784.40,-$11.82,"$15,688.00",-$236.40,-1.49%,"+$14,391.85","+1,110.35%",52.16%,"$1,296.15",$64.81,Margin,
+X91622045,UAL,UNITED AIRLS HLDGS INC COM,21,$46.27,+$0.56,$971.67,+$11.76,+1.22%,+$437.83,+82.01%,3.23%,$533.84,$25.42,Margin,
+X91622045,Pending Activity,,,,,"-$4,939.81",,,,,,,,,
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded 02/17/2021 1:12 PM ET"
