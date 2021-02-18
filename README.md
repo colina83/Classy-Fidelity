@@ -6,7 +6,7 @@ A simple Class that extracts and plots data from your fidelity account, specific
 
 - Object Oriented Programming - Creating a class that extracts data, creates a Dataframe, interrogates the Dataframe and plot data
 - DataFrames - To use pandas library, the defacto method for handling DataFrames
-- ✨Matplotlib erphaps not the fastest library for plotting but certainly, a library widely use with Python
+- ✨Matplotlib perphaps not the fastest library for plotting but certainly, a library widely use with Python
 
 The 3 points above summarizes the tools that are essential for a Data Scientist/Analyst/AI practitioner, and this first Class sets a solid foundation for future endeavours.
 ##  How do I get data for using this class?
