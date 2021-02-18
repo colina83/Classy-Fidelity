@@ -2,11 +2,11 @@
 ## OOP,Pandas & Matplotlib
 
 
-A simple Class that extracts and plots data from your fidelity account, specifically your positions Have you ever try to decipher your stock performance in fidelity's landing page?, I know is not the nicest app, and probably one of the reasons why you switched to Robinhood, anyway, let's use this as a motivation for my first project, the objectives of this project (from a technical standpoint are the following):
+A simple Class that extracts and plots data from your fidelity account, specifically your positions -  Have you ever try to decipher your stock performance in fidelity's landing page?, I know right it is not the nicest app, and probably one of the reasons why you already switched to Robinhood, anyway, let's use this as a motivation for my first project, the objectives of this project (from a technical standpoint are the following):
 
 - Object Oriented Programming - Creating a class that extracts data, creates a Dataframe, interrogates the Dataframe and plot data
 - DataFrames - To use pandas library, the defacto method for handling DataFrames
-- ✨MaMatplotlib erphaps not the fastest library for plotting but certainly, a library widely use with Python
+- ✨Matplotlib erphaps not the fastest library for plotting but certainly, a library widely use with Python
 
 The 3 points above summarizes the tools that are essential for a Data Scientist/Analyst/AI practitioner, and this first Class sets a solid foundation for future endeavours.
 ##  How do I get data for using this class?
@@ -54,3 +54,6 @@ portfolio.plot_daily_performance()
 #portfolio.plot_current_value()
 ```
 Please remove the comments in order to plot the different graphs available, bear in mind that when you are using matplotlib (at least how I have structured my methods), you can only plot a single graph, there is a reason for that, in the future the graphs will be redirected to a webpage.
+
+
+
