@@ -1,6 +1,32 @@
+# Classy-Fidelity - Day 3
+## OOP, Modularity and Automation
+
+The module (run_positions.py) that call the methods in the Classy_Fidelity class, is far from been an "optimal" solution, as such, 
+I have created a module called ```main.py  ``` which provides you a menu of options so you can select any of 
+methods:
+
+# List of Options, each option will call the right method
+
+1.- Would you like to Plot your Portfolio Current Value Today?
+2.- Would you like to Plot your Portfolio Daily Gain/Loss today?
+3.- Would you like to Plot your Portfolio Total Net Profit?
+4.- Would you like to Display your Portfolio Top Performer (Text Output)
+5.- Would you like to Display your Portfolio Worst Performer (Text Output)
+
+# How to Run
+
+Ensure that you have the right folder structure (see day 1), and once you are in the folder where main.py is stored,
+just go ahead and execute the script:
+
+```python
+ python main.py
+```
+Day 3 is just really about refactoring and creating a more appealing "pythonic" application.
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Classy-Fidelity - Day 1
 ## OOP,Pandas & Matplotlib
-
 
 A simple Class that extracts and plots data from your fidelity account, specifically your positions -  Have you ever try to decipher your stock performance in fidelity's landing page?, I know right it is not the nicest app, and probably one of the reasons why you already switched to Robinhood, anyway, let's use this as a motivation for my first project, the objectives of this project (from a technical standpoint are the following):
 

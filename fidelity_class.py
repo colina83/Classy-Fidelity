@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import fidelity_class as fd
 
 # The class essentially uses the data from fidelity main page
 
@@ -16,7 +17,7 @@ class Positions:
         # Extracts the account number
         self.account = self.file["Account Name/Number"][0]
 
-    def separate_stocks_options(self):
+    def a_separate_stocks_options(self):
         #Removes NA values from the dataset
         self.file = self.file.dropna()
         #This for loop extracts the option values
@@ -33,27 +34,27 @@ class Positions:
     #Top performer method today
     def top_performer(self):
         # Get the top performer for the file time-stamp
-        stocks = self.separate_stocks_options()
+        stocks = self.a_separate_stocks_options()
         pos = stocks[["Symbol","Today's Gain/Loss Dollar"]].dropna()
         pos["Today's Gain/Loss Dollar"] = pos["Today's Gain/Loss Dollar"].replace('[\$,]', '', regex=True).astype(float)
         maximum = pos.max()
         symbol = maximum["Symbol"]
         maxgain = maximum["Today's Gain/Loss Dollar"]
-        return f"Your top performer today is {symbol} with a total gain in USD of {maxgain}"
+        print(f"Your top performer today is {symbol} with a total gain in USD of {maxgain}")
 
     #worst performer method today
     def worst_performer(self):
         # Get the worst performer of the day
-        stocks = self.separate_stocks_options()
+        stocks = self.a_separate_stocks_options()
         pos = stocks[["Symbol","Today's Gain/Loss Dollar"]].dropna()
         pos["Today's Gain/Loss Dollar"] = pos["Today's Gain/Loss Dollar"].replace('[\$,]', '', regex=True).astype(float)
         minimum = pos.min()
         symbol = minimum["Symbol"]
         mingain = minimum["Today's Gain/Loss Dollar"]
-        return f"Your worst performer today is {symbol} with a total loss in USD  of {mingain}"
+        print(f"Your worst performer today is {symbol} with a total loss in USD  of {mingain}")
 
     def plot_current_value(self):
-        stocks = self.separate_stocks_options()
+        stocks = self.a_separate_stocks_options()
         plot_value = stocks[["Symbol","Current Value"]].dropna()
         plot_value["Current Value"] = plot_value["Current Value"].replace('[\$,]', '', regex=True).astype(float)
         plot_value = plot_value.sort_values(by = "Current Value", ascending=True, inplace=False, na_position='last')
@@ -70,7 +71,7 @@ class Positions:
         plt.show()
 
     def plot_daily_performance(self):
-        stocks = self.separate_stocks_options()
+        stocks = self.a_separate_stocks_options()
         plot_value = stocks[["Symbol","Today's Gain/Loss Dollar"]].dropna()
         plot_value["Today's Gain/Loss Dollar"] = plot_value["Today's Gain/Loss Dollar"].replace('[\$,]', '', regex=True).astype(float)
         plot_value = plot_value.sort_values(by = "Today's Gain/Loss Dollar", ascending=True, inplace=False, na_position='last')
@@ -91,11 +92,11 @@ class Positions:
         plt.xticks(x_axis)
         plt.ylabel("Today's Gain/Loss Dollar")
         plt.xlabel('Ticker')
-        plt.title(f'Gain for the Day (USD) - portfolio {self.account}')
+        plt.title(f'Account {self.account} - Portfolio Gain for the Day (USD) ')
         plt.show()
 
     def plot_portfolio_performance(self):
-        stocks = self.separate_stocks_options()
+        stocks = self.a_separate_stocks_options()
         plot_value = stocks[["Symbol","Cost Basis","Current Value"]].dropna()
         plot_value["Cost Basis"] = plot_value["Cost Basis"].replace('[\$,]', '', regex=True).astype(float)
         plot_value["Current Value"] = plot_value["Current Value"].replace('[\$,]', '', regex=True).astype(float)
@@ -104,7 +105,7 @@ class Positions:
 
         plot_value = plot_value.sort_values(by = "Total Net Profit", ascending=True, inplace=False, na_position='last')
         x_axis = plot_value["Symbol"]
-        y_axis = plot_value[f"Total Net Profit for your portfolio {self.account}"]
+        y_axis = plot_value["Total Net Profit"]
         ## This part adjust the size of the graph to your number of stocks
         n_stocks = len(x_axis)
         plt.figure(figsize=(n_stocks,int(n_stocks/2)))
@@ -120,7 +121,7 @@ class Positions:
         plt.xticks(x_axis)
         plt.ylabel("Net Profit (Dividends or Transaction fees not Included) ")
         plt.xlabel('Ticker')
-        plt.title(f'Total Net Gain/Loss for your portfolio {self.account}')
+        plt.title(f'Account {self.account} Total Net Gain/Loss for your portfolio')
         plt.show()
 
 
