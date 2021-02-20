@@ -7,11 +7,11 @@ methods:
 
 # List of Options, each option will call the right method
 
-1.- Would you like to Plot your Portfolio Current Value Today?
-2.- Would you like to Plot your Portfolio Daily Gain/Loss today?
-3.- Would you like to Plot your Portfolio Total Net Profit?
-4.- Would you like to Display your Portfolio Top Performer (Text Output)
-5.- Would you like to Display your Portfolio Worst Performer (Text Output)
+##1.- Would you like to Plot your Portfolio Current Value Today?
+##2.- Would you like to Plot your Portfolio Daily Gain/Loss today?
+##3.- Would you like to Plot your Portfolio Total Net Profit?
+##4.- Would you like to Display your Portfolio Top Performer (Text Output)
+##5.- Would you like to Display your Portfolio Worst Performer (Text Output)
 
 # How to Run
 
